@@ -23,7 +23,6 @@ html {
 }
 
 body {
-  font-family: sans-serif;
   color: #3C3C3C;
   background-color: #F8F7F5;
 }
@@ -32,12 +31,31 @@ body {
   
 }
 
-h1, h2, h3, a, label {
+h1, h2, a, label {
   text-transform: uppercase;
-  font-family: 'proxima-nova' sans-serif;
+  font-family: 'kanit', sans-serif;
 }
 
-h1, h2 {
+h1 {
+  font-weight: bold;
+  font-size: 4rem;
+}
+
+h2 {
   font-weight: bold;
   font-size: 2rem;
+}
+
+h3 {
+  font-family: 'oswald', sans-serif;
+  font-size: 4rem;
+}
+
+p {
+  font-family: 'montserrat', sans-serif;
+}
+
+.banner-image {
+  background-image: url("/images/snow-project/mountains.jpg ");
+  opacity: 0.5;
 }
