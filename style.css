@@ -1,0 +1,43 @@
+
+/* ----------- Color Variables --------- */
+/* Looking for the color variables? They have been moved to the inline-styles file in the _includes folder, and pull variables from the site-settings folder in the _data folder.  */
+
+/* Tailwind */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom CSS */
+
+html {
+  scroll-behavior: smooth; /* this enables smooth scrolling between internal links */
+}
+
+.text-rotate {
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+}
+
+.section {
+  @apply p-20 max-w-7xl mx-auto;
+}
+
+body {
+  font-family: sans-serif;
+  color: #3C3C3C;
+  background-color: #F8F7F5;
+}
+
+.button {
+  
+}
+
+h1, h2, h3, a, label {
+  text-transform: uppercase;
+  font-family: 'proxima-nova' sans-serif;
+}
+
+h1, h2 {
+  font-weight: bold;
+  font-size: 2rem;
+}
