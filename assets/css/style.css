@@ -593,14 +593,11 @@ video {
   -o-object-fit: cover;
      object-fit: cover;
 }
-.p-20 {
-  padding: 5rem;
-}
-.p-2 {
-  padding: 0.5rem;
-}
 .p-8 {
   padding: 2rem;
+}
+.p-20 {
+  padding: 5rem;
 }
 .px-20 {
   padding-left: 5rem;
